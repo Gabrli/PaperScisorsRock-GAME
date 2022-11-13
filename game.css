@@ -1,0 +1,263 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nabla', cursive;
+    background-color: royalblue;
+}
+.title{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 34px;
+    line-height: 70px;
+    border-bottom: 4px solid gold;
+    position: fixed;
+    left: 555px;
+    top: 15px;
+
+}
+.pc-choice{
+    width: 260px;
+    height: 250px;
+    border-radius: 350px;
+    font-size: 38px;
+    border: 10px solid rgb(242, 194, 61);
+    background: #0088ff ;
+    text-align: center;
+    position: fixed;
+    top: 320px;
+    left: 250px;
+}
+.player-one{
+    width: 200px;
+    height: 200px;
+    border-radius: 350px;
+    font-size: 30px;
+    border: 10px solid rgb(16, 227, 213);
+    text-align: center;
+    background: #0088ff ;
+    transition: .2s ease-in-out;
+    position: fixed;
+    top: 180px;
+    left: 1280px;
+    
+
+}
+.player-two{
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    border-radius: 350px;
+    text-align: center;
+    border: 10px solid rgb(16, 227, 213);
+    transition: .2s ease-in-out;
+    background: #0088ff ;
+    position: fixed;
+    top: 450px;
+    left: 1290px;
+
+}
+.player-three{
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    border-radius: 350px;
+    text-align: center;
+    border: 10px solid rgb(16, 227, 213);
+    transition: .2s ease-in-out;
+    background: #0088ff ;
+    position: fixed;
+    top: 320px;
+    left: 1000px;
+
+}
+.title-point-pc{
+    font-size: 26px;
+    position: fixed;
+    top: 70px;
+    left: 280px;
+}
+.point-pc{
+    font-size: 34px;
+    border-bottom: 2px solid gold;
+    position: fixed;
+    top: 0px;
+    left: 286px;
+}
+.title-point-player{
+    font-size: 26px;
+    position: fixed;
+    top: 70px;
+    left: 40px;
+
+}
+.point-pl{
+    font-size: 34px;
+    border-bottom: 2px solid gold;
+    position: fixed;
+    top: 0px;
+    left: 70px;
+
+}
+
+.modal{
+    
+    width: 600px;
+    height: 700px;
+    background-color: lightseagreen;
+    color: #fff;
+    border-radius: 14px;
+    position: fixed;
+    top: 50px;
+    left: 520px;
+}
+.box-modal{
+    display: none;
+    width: 2000px;
+    height: 820px;
+    background: rgba(0,0,0,0.4);
+    position: fixed;
+}
+.title-modal{
+    border-bottom: 3px solid #fff;
+    position: fixed;
+    top: 40px;
+    left: 645px;
+    font-size: 30px;
+    
+}
+.text-modal{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 130px;
+}
+.btn-modal{
+    width: 230px;
+    margin-top: 80px;
+    height: 45px;
+    background: goldenrod;
+    border: 0;
+    color: #fff;
+    text-transform: uppercase;
+    transition: .2s ease-in-out;
+    border-radius: 12px;
+    position: fixed;
+    left: 700px;
+}
+.player-one:hover{
+    background-color: #0077ee;
+    transition: .2s ease-in-out;
+}
+.player-two:hover{
+    background-color: #0077ee;
+    transition: .2s ease-in-out;
+}
+.player-three:hover{
+    background-color: #0077ee;
+    transition: .2s ease-in-out;
+}
+.btn-home{
+    width: 230px;
+    margin-top: 250px;
+    height: 45px;
+    background: goldenrod;
+    border: 0;
+    color: #fff;
+    text-transform: uppercase;
+    transition: .2s ease-in-out;
+    border-radius: 12px;
+    position: fixed;
+    left: 700px;
+
+}
+.btn-home:hover{
+    background-color: rgb(148, 111, 19);
+    transition: .2s ease-in-out;
+}
+.btn-modal:hover{
+    background-color: rgb(148, 111, 19);
+    transition: .2s ease-in-out;
+
+}
+.active{
+    display: flex;
+}
+
+@media only screen and (max-width: 400px) {
+    .modal{
+        width: 370px;
+        position: fixed;
+        left: 15px;
+    }
+    .box-modal{
+        width: 400px;
+
+    }
+    .title-modal{
+        position: fixed;
+        left: 28px;
+    }
+    .text-modal{
+        font-size: 20px;
+    }
+    .btn-modal{
+        position: fixed;
+        left: 85px;
+    }
+    .btn-home{
+        position: fixed;
+        left: 85px;
+
+    }
+    .player-one{
+    width: 200px;
+    height: 100px;
+    border-radius: 12px;
+    position: fixed;
+    top: 200px;
+    left: 100px;
+
+
+    }
+    .player-two{
+        width: 200px;
+        height: 100px;
+        border-radius: 12px;
+        position: fixed;
+        top: 400px;
+        left: 100px;
+    }
+    .player-three{
+        width: 200px;
+        height: 100px;
+        border-radius: 12px;
+        position: fixed;
+        top: 600px;
+        left: 100px;
+
+    }
+    .pc-choice{
+        width: 100px;
+        height: 100px;
+        border-radius: 12px;
+        position: fixed;
+        top: 0;
+        left: 160px;
+
+    }
+    .pc-text{
+        position: fixed;
+        top: 0;
+        left: 190px;
+
+    }
+    .point-pc{
+        position: fixed;
+        left: 320px;
+    }
+    .title-point-pc{
+        position: fixed;
+        left: 317px;
+    }
+
+}
